@@ -1,13 +1,10 @@
 # Site settings 配置站点
-
-title: 'sadas'
-description: 'Pureiya'
-keywords: 'Pureiya'
-url: 'https://liyinghua0321.github.io' # your host
-encoding: UTF-8
+title: 'your awesome title'
+description: 'your web description'
+keywords: 'your web keywords, another keywords'
+url: 'https://abc.github.io' # your host
 
 # nav 中文字符空格：&emsp;
-
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
   标签: '/tags.html'
@@ -16,9 +13,8 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   友情链接: '/friendLink.html'
 
 # 博主
-
 author: true
-name: 'Pureiya'
+name: 'your awesome name'
 NickName: 'your awesome nickname'
 webtitle: 'your awesome webtitle'
 bio: 'your awesome bio'
@@ -27,11 +23,11 @@ aboutyou: 'your introduction'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
-SNS: false
-SNS-icon: ['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  mail: 'mailto:liyinghua0321@gmail.com'
+SNS: true
+SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
+  mail: 'mailto:abc@gmail.com'
   weixin: '' # 你的微信二维码存放的地址
-  qq: 'http://wpa.qq.com/msgrd?v=3&uin='413951871'&site=qq&menu=yes'
+  qq: '' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   github: ''
   Codepen: ''
   weibo: ''
@@ -70,7 +66,7 @@ friends:
 disqus: false
 disqus_url: '' # https://abc.disqus.com/embed.js
 # 来必力评论
-livere: false
+livere: true
 livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: false
@@ -84,7 +80,7 @@ social-share: true
 social-share-items: ['qq', 'wechat', 'weibo', 'twitter', 'facebook']
 
 # 百度统计 在baidu-url里填写自己相关的url代码
-baidu: false
+baidu: true
 baidu-url: ''
 # 谷歌分析 在google-ID里填写自己在谷歌分析获得的追踪ID
 google: false
