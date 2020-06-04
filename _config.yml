@@ -1,5 +1,5 @@
 # Site settings 配置站点
-title: 123
+title: 'sadas'
 description: 'Pureiya'
 keywords: 'Pureiya'
 url: 'https://liyinghua0321.github.io' # your host
@@ -11,7 +11,7 @@ nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   时间线: '/timeline.html'
   关于博主: '/about.html'
   友情链接: '/friendLink.html'
-# 博主L
+# 博主
 author: true
 name: 'Pureiya'
 NickName: 'your awesome nickname'
@@ -24,7 +24,7 @@ portraits: '/assets/profile.jpeg' # your portraits image file path
 # SNS
 SNS: false
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-   mail: 'mailto:413951871@qq.com'
+  mail: 'mailto:413951871@qq.com'
   weixin: '' # 你的微信二维码存放的地址
   qq: 'http://wpa.qq.com/msgrd?v=3&uin='413951871'&site=qq&menu=yes'
   github: ''
