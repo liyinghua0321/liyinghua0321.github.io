@@ -12,11 +12,11 @@ description:
     {% include title.html %}
     <ul class="ex-list">
         <li class="fadeInUp animated">
-            {% if site.tags.size>0 %}
+        {% if site.tags.size>0 %}
             {% for tag in site.tags %}
             <a href="#{{ tag[0] }}" class="tag">{{ tag[0]}}</a>
             {% endfor %}
-            {% endif %}
+        {% endif %}
         </li>
         {% for tag in site.tags %}
         <li>

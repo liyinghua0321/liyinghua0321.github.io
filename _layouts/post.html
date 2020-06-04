@@ -2,9 +2,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <!-- 引入head标签 -->
-    {% include head.html %}
-    {% include androidColor.html %}
+<!-- 引入head标签 -->
+{% include head.html %}
+{% include androidColor.html %}
 </head>
 <body>
 
@@ -18,23 +18,22 @@
 {% include post-title.html %}
 <div class="markdown-body fadeInUp animated">
 
-    {% if page.subtitle %}
+  {% if page.subtitle %}
     {% if page.color.size==0 or page.color==nil %}
-    <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
+      <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
         {{ page.subtitle }}
-    </div>
+      </div>
     {% else %}
-    <div class="postpage-subtitle"
-         style="border-left: 8px solid {{ page.color }}; border-right: 8px solid {{ page.color }}">
+      <div class="postpage-subtitle" style="border-left: 8px solid {{ page.color }}; border-right: 8px solid {{ page.color }}">
         {{ page.subtitle }}
-    </div>
+      </div>
     {% endif %}
-    {% endif %}
+  {% endif %}
 
-    <!-- 文章内容 -->
-    {{ page.content }}
-    <!-- 引入share模块 -->
-    {% include share.html %}
+  <!-- 文章内容 -->
+  {{ page.content }}
+  <!-- 引入share模块 -->
+  {% include share.html %}
 </div>
 
 <!-- 底部锚点 -->
@@ -60,7 +59,7 @@
 </script>
 <!-- 页面刷新回到顶部 -->
 <script>
-    window.onbeforeunload = function () {
+    window.onbeforeunload = function(){
         //刷新后页面自动回到顶部
         document.documentElement.scrollTop = 0;  //ie下
         document.body.scrollTop = 0;  //非ie
